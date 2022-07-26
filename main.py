@@ -55,7 +55,7 @@ caminho_arquivo = pasta_download + f'\{nome_arquivo}'  # Endereço completo do a
 
 tabela = pd.read_excel(rf'{caminho_arquivo}')
 quantidade = tabela["Quantidade"].sum()  # Quantidade de itens vendidos
-faturamento = tabela["Valor Final"].sum()  #Faturamento total
+faturamento = tabela["Valor Final"].sum()  # Faturamento total
 
 dia = time.strftime("%d/%m/%Y")
 
