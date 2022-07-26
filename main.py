@@ -7,7 +7,7 @@ import pandas as pd
 # Configs
 pyautogui.PAUSE = 2  # Delay entre as execuções
 sistema_url = 'https://drive.google.com/drive/folders/149xknr9JvrlEnhNWO49zPcw0PW5icxga'
-nome_arquivo = 'Vendas.xlsx'
+nome_arquivo = 'Vendas.xlsx'  # O nome que deseja salvar o arquivo
 pasta_download = os.path.join(os.environ['userprofile'], "Downloads", "Simulando")  # Pasta para salvar o arquivo
 email_destinatario = 'emailaleatorio@maildrop.cc'
 
